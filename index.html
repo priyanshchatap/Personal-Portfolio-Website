@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Priyansh_Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/f3d26795d4.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+        <nav>
+            <div class="container">
+                <img src="photos/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#services">More Info</a></li>
+                    <li><a href="#hobbies">Interests</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </div>
+        </nav>
+        <div id="header">
+            <div class="container">
+                <div class="header-text">
+                    <p></p>
+                    <h1>Hey, I'm <span>Priyansh Chatap</span></h1>
+                    <h2>CSE Undergrad @ VIT Chennai</h2>
+                </div>
+                <div class="image">
+                    <img src="photos/pc_photo_logo.png" class="pcphoto">
+                </div>
+            </div>
+        </div>
+        <!------about------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="photos/pc_photo2.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+
+                        <p> <br>A final student pursuing a B-Tech in Computer science and Engineering from Vellore Institute of Technology, 
+                            Chennai. Organized and dependable candidate successful at managing multiple priorities with a positive attitude. 
+                            Willingness to take on added responsibilities to meet team goals. Great at Time Management and problem-solving
+                            skills, suggesting solutions while appreciating suggestions and ideas from Team-mates.
+                            </p>
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('personal')">Personal Details</p>
+                                <p class="tab-links " onclick="opentab('education')">Education</p>
+                                <p class="tab-links " onclick="opentab('skills')">Skills</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="personal">
+                                <ul>
+                                    <li><span>Date of Birth</span><br>20-04-2003 </li>
+                                    <li><span>Mobile Number</span><br>9425607407</li>
+                                    <li><span>City and State of recidence</span><br>Bhopal, Madhya Pradesh</li>
+                                    <li><span>Mail-Id</span><br>priyansh.chatap2021@vitstudent.ac.in</li>
+                                    <li><span>Linked In</span><br><a STYLE="text-decoration:underline; color: inherit" href="https://www.linkedin.com/in/priyansh-chatap-106881">linkedin.com/in/priyansh-chatap</a></li>
+                                    
+                                    
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2021-2025</span><br>Bachelor in Technology CGPA 8.57<br>Vellore Institute of Technology,Chennai</li>
+                                    <li><span>2019-2021</span><br>11th-12th CBSE-87%<br> GVN-The Global School, Bhopal</li>
+                                    <li><span>2019</span><br>10th CBSE-92%<br>Campion School, Bhopal</li>                                    
+                                </ul>
+                            </div>
+                         
+                            <div class="tab-contents" id="skills">
+                                <ul>
+                                    <li><span>UI/UX</span><br>Designing Web/App interfaces </li>
+                                    <li><span>Languages</span><br>C C++ Numpy Pandas HTML Css Javascript</li>
+                                    <li><span>Web Development</span><br>Frontend Web Development</li>
+                                    <li><span>Figma</span><br>Prototyping using Figma</li>
+                                    
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------Experience-------->
+        <div id="experience">
+            <div class="container">
+              <h1 class="sub-title">Professional Experience<br></h1>
+            </div>
+            <div class="experience-list">
+              <div class="card common">
+                <i class="fa-solid fa-paperclip"></i>
+                <h2>Machine Learning Intern: BHEL, Bhopal</h2>
+                <p> Crafting a query resolver chatbot project based on company's custom dataset that harnessed real-world data for opti
+                    mized and smooth customer and employee support. Guided by Mentor Mr. Pradeep S. Balowria.
+                    Technologies used: Google colab, numpy, pandas, python, docker</p>
+              </div>
+              <div class="card common">
+                <i class="fa-solid fa-code"></i>
+                <h2>Web-Dev Intern: Persystent Software Solutions, Noida</h2>
+                <p>Designed and developed a complete student registration portal consisting of login page; signup page; registration-form;
+                    display page and logout functionality. Technologies used: HTML, CSS, Javascript, React.js, MySQL, PHP.</p>
+              </div>
+              <div class="card common">
+                <i class="fa-brands fa-react"></i>
+                <h2>Web Developer: Microsoft Innovations' Club</h2>
+                <p> Collaborated with a team in Microsoft Innovations' Club VIT'C to design and develop a lost and found website facilitating
+                    the service promoting prompt reporting and easy trackablity. Technologies used: HTML, CSS, Javascript, React.js, MongoDB</p>
+              </div>
+            </div>
+          </div>
+
+          <!--------services-------->
+        <div id="services">
+            <div class="container">
+              <h1 class="sub-title">Currently Exploring<br></h1>
+            </div>
+            <div class="services-list">
+              <div class="card common">
+                <i class="fa-solid fa-paperclip"></i>
+                <h2>Data Science</h2>
+                <p>In my exploration in the field of data science, I have gained valuable insights and learnings into the fundamental concepts of statistics, probability, and linear algebra, programming skills, particularly in languages like Python and R, to manipulate and analyze large datasets efficiently.</p>
+              </div>
+              <div class="card common">
+                <i class="fa-solid fa-code"></i>
+                <h2>Machine Learning</h2>
+                <p>During my internship at BHEL, I delved into Machine Learning, crafting a query resolver chatbot project based on company's custom dataset that harnessed real-world data for optimized and smooth customer and employee support, which created my interest in exploring this technology and try creating an impact.</p>
+              </div>
+              <div class="card common">
+                <i class="fa-brands fa-react"></i>
+                <h2>Web Dev</h2>
+                <p>My experience with web development sparked my interest in creating various projects. This passion led me to contribute to a lost and found project in our club, where I designed and implemented a user-friendly interface. It also inspired me to pursue an internship, further honing my skills and deepening my understanding of web technologies.</p>
+              </div>
+            </div>
+          </div>
+          <!-----Hobbies------->
+          <div id="hobbies">
+            <div class="container">
+                <h1 class="sub-title">My Hobbies</h1>
+            </div>
+                <div class="work-list">
+                    <div class="work">
+                        <h2>Painting</h2>
+                        <img src="photos/painting.png">
+                    </div>
+                    <div class="work">
+                        <h2>Cycling</h2>
+                        <img src="photos/cycle.png">
+                    </div>
+                    <div class="work">
+                        <h2>Photography</h2>
+                        <img src="photos/camera.png">
+                    </div>                    
+                </div>                           
+          </div>
+          <!------footer---->
+        <div id="contact">
+                <div class="footer">
+                    <div class="row">
+                        <div class="footer-col">
+                            <h4>Contact Details</h4>
+                            <ul>
+                                
+                                <li><i class="fa-solid fa-phone"></i><a href="#">Ph: 9425607407</a></li>
+                                
+                                <li><i class="fa-regular fa-envelope"></i><a href="mailto: chatappriyansh@gmail.com"> chatappriyansh@gmail.com</a></li>
+                                <li><i class="fa-regular fa-envelope"></i><a href="mailto: priyansh.chatap2021@vitstudent.ac.in"> priyansh.chatap2021@vitstudent.ac.in</a></li>
+                                
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Quick shortcuts</h4>
+                            <ul>
+                                <li><a href="#header">Home</a></li>
+                                <li><a href="#about">About Me</a></li>
+                                <li><a href="#services">More Info</a></li>
+                            </ul>
+                        </div>
+                        
+
+                        <div class="footer-col">
+                            <h4>Socials</h4>
+                            <div class="social-links">
+                                <a href="https://github.com/priyanshchatap"><i class="fa-brands fa-github"></i></a>  
+                                <a href="https://www.instagram.com/?next=%2F"><i class="fab fa-instagram"></i></a>          
+                                <a href="https://www.linkedin.com/in/priyansh-chatap-10688121b"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                            <a href="C:\Users\ROG\OneDrive\Documents\Web_Development\portfolio\priyansh_resume_august.pdf" download class="btn btn2">Download Resume</a>
+                        </div>
+
+                    </div>
+
+                </div>
+        </div>
+          
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links")
+            var tabcontents = document.getElementsByClassName("tab-contents")
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab")
+                
+            }
+        </script>
+  <!--     <script>
+            var sidemenu=document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right= "0";
+
+            }
+            function closemenu(){
+                sidemenu.style.right= "-200px";
+                
+            }
+        </script> -->
+    </body>
+</html>
